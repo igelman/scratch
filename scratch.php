@@ -14,7 +14,7 @@ $request  = $client->getMessageFactory()->createRequest();
 $response = $client->getMessageFactory()->createResponse();
 
 $request->setMethod('GET');
-$request->setUrl('http://google.com');
+$request->setUrl('http://localhost:8888/scratch/test-stub.html');
 
 $client->send($request, $response);
 
